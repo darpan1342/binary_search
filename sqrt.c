@@ -8,7 +8,6 @@ int Sqrt(int A) {
     {
     
         mid=floor((l+r)/2);
-        printf("%d ",mid);
 		if((mid*mid)>=A)
         {
          r=mid;   
